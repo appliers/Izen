@@ -1,0 +1,27 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "images-scraper": "^5.0.7",
+    "alexflipnote.js": "^1.2.8",
+    "moment": "^2.29.1",
+    "request": "^2.88.0",
+    "figlet": "^1.4.0",
+    "random-puppy": "^1.1.0",
+    "novelcovid": "^1.2.7",
+    "weather-js": "^2.0.0",
+    "discord.js": "^12.4.1"
+  }
+}
