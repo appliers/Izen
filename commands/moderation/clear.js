@@ -8,10 +8,6 @@ const {
     args: true,
     usage: "<amount>",
     category: 'moderation',
-    permissions: ['MANAGE_MESSAGES'],
-    permissionError: "You don't have the Manage Messages permission to run this command!",
-    botPermissions: [FLAGS.MANAGE_MESSAGES],
-    userPermissions: [FLAGS.MANAGE_MESSAGES],
   
     run(client, msg, args) {
       const { channel, guild, member } = msg
