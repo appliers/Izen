@@ -8,10 +8,6 @@ const {
     args: true,
     category: "moderation",
     usage: "<user> [days(0-7)] [reason]",
-    botPermissions: [FLAGS.BAN_MEMBERS],
-    permissions: ['BAN_MEMBERS'],
-    permissionError: "You don't have the Ban Members permission to run this command!",
-    userPermissions: [FLAGS.BAN_MEMBERS],
   
     run(client, msg, args) {
       const { channel, guild, mentions, author } = msg
