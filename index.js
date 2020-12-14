@@ -18,12 +18,9 @@ client.on('ready', () => {
     console.log(`${client.user.username} ✅`)
 })
 
-const loadCommands = require('./command-base/load-commands')
-
 client.on('message', message => {
     console.log(`${message.author.tag}: ${message.content}`);
     
-    loadCommands(client)
 })  
 
 client.on('message', async message =>{
