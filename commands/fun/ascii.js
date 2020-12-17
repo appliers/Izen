@@ -3,6 +3,7 @@ const figlet = require('figlet');
 module.exports = {
     name: "ascii",
     description: "Converts text to ascii",
+    category: 'fun',
 
     async run (client, message, args){
         if(!args[0]) return message.channel.send('Please provide some text');
