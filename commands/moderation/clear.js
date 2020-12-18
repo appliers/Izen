@@ -24,6 +24,8 @@ const {
         )
       }
   
-      channel.bulkDelete(amountArg)
+      channel.bulkDelete(amountArg).error(e => {
+          return message.channel.send('you can only delete messages that are 14 days')
+        })
     },
   }
